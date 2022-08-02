@@ -1,5 +1,6 @@
 body{
     font-family: Roboto,sans-serif;
+    margin:0;
 }
 
 .hero{
@@ -62,14 +63,14 @@ a{
 }
 
 img{
-    max-width:auto;
-    max-height: 300px;
+    max-width:394px;
+    height: auto;
 }
 
 .hero-button{
     background-color: #3882f6;
     color:white;
-    border-radius: 8px;
+    border-radius: 11px;
     font-size:16px;
-    padding:10px;
+    padding:5px 21px;
 }
