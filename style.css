@@ -3,7 +3,7 @@ body{
     margin:0;
 }
 
-/* Start of Hero Section */
+/* Start of Hero section */
 .hero{
     display:flex;
     flex-direction: column;
@@ -74,11 +74,12 @@ img{
     border-radius: 11px;
     font-size:16px;
     padding:5px 21px;
+    border-style:none;
 }
 
-/*End of Hero Section */
+/*End of Hero section */
 
-/*Start of Information Section */
+/*Start of Information section */
 .information{
     display:flex;
     flex-direction:column;
@@ -108,4 +109,25 @@ img{
     font-weight:900;
     color:#1F2937;
 }
-/*End of Information Section */
+/*End of Information section */
+
+/*Start of Quote section */
+.quote-container{
+    display:flex;
+    flex-direction:column;
+    background-color:#E5E7EB;
+    padding: 92px 180px;
+}
+
+.quote{
+    font-size:36px;
+    font-weight: light;
+    font-style: italic;
+    color:#1F2937;
+    margin: 0;
+}
+
+.credit{
+    align-self: flex-end;
+}
+
