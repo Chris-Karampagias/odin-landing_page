@@ -3,6 +3,7 @@ body{
     margin:0;
 }
 
+/* Start of Hero Section */
 .hero{
     display:flex;
     flex-direction: column;
@@ -40,6 +41,7 @@ a{
 .hero-2{
     display:flex;
     justify-content: space-between;
+    gap:50px
 }
 
 .main-text{
@@ -56,15 +58,14 @@ a{
 }
 
 .image{
-    justify-self: flex-end;
-    flex:1 70%;
-    display: flex;
+    display:flex;
     justify-content: flex-end;
+    flex-basis:65%;
 }
 
 img{
-    max-width:394px;
-    height: auto;
+    width:65%;
+    border-radius: 10px;
 }
 
 .hero-button{
@@ -74,3 +75,37 @@ img{
     font-size:16px;
     padding:5px 21px;
 }
+
+/*End of Hero Section */
+
+/*Start of Information Section */
+.information{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 50px;
+}
+
+.information-container{
+    display:flex;
+    margin: 0 171px;
+    gap: 68px;
+}
+
+.information-wrapper img{
+    width: 250px;
+    height:250px;
+    border-radius: 10px;
+}
+
+.information-wrapper p{
+    font-size:20px;
+    color:grey;
+}
+
+.information-header{
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+}
+/*End of Information Section */
