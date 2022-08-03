@@ -36,6 +36,11 @@ a{
     font-size:18px;
     color:#E5E7EB;
     white-space: nowrap;
+    cursor: pointer;
+}
+
+a:hover{
+    font-size:25px;
 }
 
 .hero-2{
@@ -55,6 +60,7 @@ a{
 .secondary-text{
     font-size:18px;
     color:#E5E7EB;
+    margin-right: 65px;
 }
 
 .image{
@@ -75,6 +81,12 @@ img{
     font-size:16px;
     padding:5px 21px;
     border-style:none;
+}
+
+.main-text-container button:hover{
+    border-style:solid;
+    border-color: white;
+    cursor: pointer;
 }
 
 /*End of Hero section */
@@ -166,4 +178,23 @@ img{
     height: 40px;
 }
 
+.sign-up-container button:hover{
+    cursor:pointer;
+    font-size:24px;
+}
 /*End of Sign Up section */
+
+/*Start of Footer section */
+.footer-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding:20px 0;
+}
+
+.copyright{
+    font-size: 25px;
+    color:white;
+}
+/*End of Footer section */
