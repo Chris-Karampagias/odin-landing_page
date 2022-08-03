@@ -1,1 +1,1 @@
-# odin-landing_page
+This landing page project is part of The Odin Project's curriculum and uses a flex layout to arrange the page's content.
